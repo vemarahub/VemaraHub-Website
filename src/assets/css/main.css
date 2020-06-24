@@ -5045,3 +5045,36 @@ a.credit {
 .section {
   padding-bottom: 0;
 }
+
+/* define the animation */
+@-webkit-keyframes marquee {
+  0%   { -webkit-transform: translate(0, 0); }
+  100% { -webkit-transform: translate(0, -100%); }
+} 
+  @keyframes marquee {
+  0%   { -webkit-transform: translate(0, 0); }
+  100% { -webkit-transform: translate(0, -100%); }
+} 
+
+
+
+/* define your limiting container */
+.marquee {
+  border: none;
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing: border-box;
+  text-align: center;
+}
+/* this is the tray moving around your container */
+.marquee span {
+  display: inline-block;
+  text-indent: 0;
+  animation: marquee 15s linear infinite; /* here you select the animation */
+    -webkit-animation: marquee 15s linear infinite; /* here you select the animation */
+}
+/* pause the animation on mouse over */
+.marquee span:hover {
+  animation-play-state: paused;
+    -webkit-animation-play-state: paused;
+}
