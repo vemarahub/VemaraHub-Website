@@ -12,12 +12,6 @@ import { IntroComponent } from './intro/intro.component';
 import { NgxSpinnerModule } from '../../../node_modules/ngx-spinner';
 
 import { MongoComponent } from './mongo/mongo.component';
-import { LinuxComponent } from './linux/linux.component';
-import { AngularComponent } from './angular/angular.component';
-import { JavaComponent } from './java/java.component';
-import { NetworkingComponent } from './networking/networking.component';
-import { AndroidComponent } from './android/android.component';
-import { AwsComponent } from './aws/aws.component';
 
 @NgModule({
   imports: [
@@ -35,13 +29,7 @@ import { AwsComponent } from './aws/aws.component';
 
  
   
-    MongoComponent,
-    LinuxComponent,
-    AngularComponent,
-    JavaComponent,
-    NetworkingComponent,
-    AndroidComponent,
-    AwsComponent
+    MongoComponent
   ],
   providers: [
     { provide: 'SnotifyToastConfig', useValue: ToastDefaults},
