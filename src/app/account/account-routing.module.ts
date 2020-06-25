@@ -4,7 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { LayoutComponent } from './layout.component';
 import { LoginComponent } from './login.component';
 import { RegisterComponent } from './register.component';
-import { IntroComponent } from './intro.component';
+import { DashComponent } from './dash/dash.component';
 
 const routes: Routes = [
     {
@@ -15,7 +15,7 @@ const routes: Routes = [
         ],
         
     },
-    { path: 'intro', component: IntroComponent },
+    { path: 'dash', component: DashComponent },
 ];
 
 @NgModule({
