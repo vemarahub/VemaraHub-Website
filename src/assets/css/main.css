@@ -1714,9 +1714,9 @@ body {
 
 .navbar {
   padding-top: 0.625rem;
-  padding-bottom: 0.625rem;
+  padding-bottom: 0rem;
   min-height: 53px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
 }
