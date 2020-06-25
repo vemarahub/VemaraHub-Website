@@ -7,6 +7,7 @@ import { LayoutComponent } from './layout.component';
 import { LoginComponent } from './login.component';
 import { RegisterComponent } from './register.component';
 import { DashComponent } from './dash/dash.component';
+import { CoursesComponent } from './courses/courses.component';
 
 @NgModule({
     imports: [
@@ -18,7 +19,8 @@ import { DashComponent } from './dash/dash.component';
         LayoutComponent,
         LoginComponent,
         RegisterComponent,
-        DashComponent
+        DashComponent,
+        CoursesComponent
     ]
 })
 export class AccountModule { }

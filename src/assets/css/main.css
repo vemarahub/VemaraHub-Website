@@ -1761,6 +1761,7 @@ body {
   font-size: 0.7142em;
   padding: 0.5rem 0.7rem;
   line-height: 1.625rem;
+  padding-right:2em;
 }
 
 .navbar .navbar-nav .nav-link:not(.btn) i.fa + p,

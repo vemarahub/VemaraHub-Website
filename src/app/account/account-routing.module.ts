@@ -5,6 +5,7 @@ import { LayoutComponent } from './layout.component';
 import { LoginComponent } from './login.component';
 import { RegisterComponent } from './register.component';
 import { DashComponent } from './dash/dash.component';
+import { CoursesComponent } from './courses/courses.component';
 
 const routes: Routes = [
     {
@@ -16,6 +17,7 @@ const routes: Routes = [
         
     },
     { path: 'dash', component: DashComponent },
+    { path: 'courses', component: CoursesComponent },
 ];
 
 @NgModule({
