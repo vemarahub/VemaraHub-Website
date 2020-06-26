@@ -1,46 +1,9 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
-  <div class="container">
-    <a class="navbar-brand" href="#">
-     
-      <h2 class="text-muted ">VeMara Hub<small > L</small><small class="text-lowercase">earning Portal</small>    </h2>
-  </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ml-auto">
-      
-        <li class="nav-item active">
-
-          <a class="nav-item nav-link" routerLink="../dash" >Home
-            <span class="sr-only">(current)</span>
-              </a>
-        </li>
-        
-        <li class="nav-item  ">
-          <a class="nav-item nav-link" routerLink="../courses" >Courses
-            
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-item nav-link" href="https://rajeshnair.netlify.app" target="_blank">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-item nav-link" routerLink="login">Login/Register</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-  
-  <div class="profile-page">
-      <div class="wrapper">
-     
+<app-header></app-header>    
                     
       
         <div class="page-header" filter-color="blue">
           <div class="page-header-image" data-parallax="true" style="background-image: url('assets/images/intro.jpg');">
-         
+    
         
           </div>
 
@@ -74,30 +37,48 @@
          </span>
   </p>
        </div>
-       <div class="mt-2 col col-md-3">
-      
-          <div class="card text-white bg-warning mb-3" style="margin-top: 20px;margin-left:-10px;"> 
-              <div class="card-header">Blogs</div>
-              <div class="card-body">
-                  <h4 class="card-title">Read Latest Blogs Posts</h4>
-                  <p class="card-text">
-                      Blog post on various topics classified and tagged as per technology and section 
-                  </p>
-              </div>
+
+
+      </div>
+
+      <div class="row">
+        <div class="mt-2 col col-md-3">
+        <div class="card text-white bg-warning mb-3" style="margin-top: 20px;margin-left:10px;"> 
+          <div class="card-header">Blogs</div>
+          <div class="card-body">
+              <h4 class="card-title">Read Latest Blogs Posts</h4>
+              <p class="card-text">
+                  Blog post on various topics classified and tagged as per technology and section 
+              </p>
           </div>
-    
       </div>
+</div>
 
+<div class="col mt-4 col-md-6">
+  <div class="container"> 
+    <h4>Total Free Courses  
+        <span class="badge badge-secondary">55</span> 
+    </h4> 
+      
+    <h4>Total Hours of Session  
+        <span class="badge badge-secondary">115</span> 
+    </h4> 
+      
+    <h4>Variety of Topics  
+        <span class="badge badge-secondary">40</span> 
+    </h4> 
+   
+</div> 
+</div>
       </div>
-
      
 
     
 
     </div>
-  </div>
+
   
-  </div>
+
   <div class="row" >
 
     <div class=" mb-4 col-xl-12">
@@ -123,28 +104,4 @@
     </div>
 
   </div>
-  <footer class="footer">
-  
-    <div class="container text-center">
-      <a class="cc-youtube btn btn-link" href="https://www.youtube.com/channel/UCNnyXez3-1s06t8tkXuzY5g?sub_confirmation=1" target="_blank">
-        <i class="fa fa-youtube fa-2x " aria-hidden="true"></i>
-      </a>
-      <a class="cc-instagram btn btn-link" href="https://www.instagram.com/vemara_hub/" target="_blank">
-        <i class="fa fa-instagram fa-2x " aria-hidden="true"></i>
-      </a>
-      <a class="cc-twitter btn btn-link " href="https://twitter.com/HubVemara" target="_blank">
-        <i class="fa fa-twitter fa-2x " aria-hidden="true"></i>
-      </a>
-
-      <a class="cc-github btn btn-link " href="https://github.com/vemarahub" target="_blank">
-        <i class="fa fa-github fa-2x " aria-hidden="true"></i>
-      </a>
-      <!-- <a class="cc-google-plus btn btn-link" href="#" target="_blank">
-        <i class="fa fa-google-plus fa-2x" aria-hidden="true"></i>
-      </a> -->
-    </div>
-    <div class="text-center text-muted">
-      <p>&copy; All rights reserved VeMaRa HuB.
-      </p>
-    </div>
-  </footer>
+  <app-footer></app-footer>

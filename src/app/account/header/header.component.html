@@ -1,9 +1,8 @@
-﻿<body style="background-image: URL('assets/images/login.jpg');padding-bottom: 600px;"> 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
     <div class="container">
       <a class="navbar-brand" href="#">
        
-        <h2 class="text-muted ">VeMara Hub<small > L</small><small class="text-lowercase">earning</small> <small > P</small><small class="text-lowercase">ortal</small>    </h2>
+        <h2 class="text-muted ">VeMara Hub<small > L</small><small class="text-lowercase">earning </small><small>P</small><small class="text-lowercase">ortal</small>    </h2>
     </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -11,36 +10,26 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
         
-          <li class="nav-item">
-
-            <a class="nav-item nav-link" routerLink="dash" >Home
-               
+          <li class="nav-item active">
+  
+            <a class="nav-item nav-link" routerLink="../dash" >Home
+              <span class="sr-only">(current)</span>
                 </a>
           </li>
           
-          <li class="nav-item">
-            <a class="nav-item nav-link" routerLink="courses" >Courses
-                
+          <li class="nav-item  ">
+            <a class="nav-item nav-link" routerLink="../courses" >Courses
+              
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-item nav-link" href="https://rajeshnair.netlify.app" target="_blank">About</a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-item nav-link" routerLink="login">Login/Register
-                <span class="sr-only">(current)</span>
-            </a>
+          <li class="nav-item">
+            <a class="nav-item nav-link" routerLink="login">Login/Register</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-
-
-      <div class="col-md-6 offset-md-3 mt-5" >
-        <router-outlet></router-outlet>
-    </div>
-  
-
-</body>
-<app-footer></app-footer>
+    

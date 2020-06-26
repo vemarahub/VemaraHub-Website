@@ -9,6 +9,8 @@ import { RegisterComponent } from './register.component';
 import { DashComponent } from './dash/dash.component';
 import { CoursesComponent } from './courses/courses.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
     imports: [
@@ -22,7 +24,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
         LoginComponent,
         RegisterComponent,
         DashComponent,
-        CoursesComponent
+        CoursesComponent,
+        HeaderComponent,
+        FooterComponent
     ]
 })
 export class AccountModule { }
