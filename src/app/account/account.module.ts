@@ -11,13 +11,15 @@ import { CoursesComponent } from './courses/courses.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { MatVideoModule } from 'mat-video';
 
 @NgModule({
     imports: [
         CommonModule,
         ReactiveFormsModule,
         AccountRoutingModule,
-        NgbModule
+        NgbModule,
+        MatVideoModule
     ],
     declarations: [
         LayoutComponent,
