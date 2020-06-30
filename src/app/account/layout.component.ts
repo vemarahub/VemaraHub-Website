@@ -1,17 +1,13 @@
-﻿import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+﻿import { Component, OnInit } from '@angular/core';
 
-import { AccountService } from '@app/_services';
-
-@Component({ templateUrl: 'layout.component.html' })
-export class LayoutComponent {
-    constructor(
-        private router: Router,
-        private accountService: AccountService
-    ) {
-        // redirect to home if already logged in
-        if (this.accountService.userValue) {
-            this.router.navigate(['/']);
-        }
-    }
+@Component({
+  template: '<youtube-player videoId="dQw4w9WgXcQ"></youtube-player>',
+  selector: 'app-video'
+})
+export class LayoutComponent implements OnInit {
+  ngOnInit() {
+    const tag = document.createElement('script');
+    tag.src = 'https://www.youtube.com/iframe_api';
+    document.body.appendChild(tag);
+  }
 }
