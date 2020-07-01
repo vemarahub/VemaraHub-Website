@@ -12,7 +12,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { MatVideoModule } from 'mat-video';
-import { YouTubePlayerModule } from '@angular/youtube-player';
+
 
 @NgModule({
     imports: [
@@ -20,8 +20,7 @@ import { YouTubePlayerModule } from '@angular/youtube-player';
         ReactiveFormsModule,
         AccountRoutingModule,
         NgbModule,
-        MatVideoModule,
-        YouTubePlayerModule
+        MatVideoModule
     ],
     declarations: [
         LayoutComponent,
