@@ -1,13 +1,4 @@
-﻿import { Component, OnInit } from '@angular/core';
+﻿import { Component } from '@angular/core';
 
-@Component({
-  template: '<youtube-player videoId="dQw4w9WgXcQ"></youtube-player>',
-  selector: 'app-video'
-})
-export class LayoutComponent implements OnInit {
-  ngOnInit() {
-    const tag = document.createElement('script');
-    tag.src = 'https://www.youtube.com/iframe_api';
-    document.body.appendChild(tag);
-  }
-}
+@Component({ templateUrl: 'layout.component.html' })
+export class LayoutComponent { }
