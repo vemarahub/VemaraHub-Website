@@ -7,7 +7,7 @@
   "files": [
     "src/main.ts",
     "src/polyfills.ts",
-    "src/app/account/confirmed.validatr.ts"
+    "src/app/account/confirmed.validator.ts"
   ],
   "include": [
     "src/**/*.d.ts"
