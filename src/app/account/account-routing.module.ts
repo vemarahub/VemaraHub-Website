@@ -6,13 +6,15 @@ import { LoginComponent } from './login.component';
 import { RegisterComponent } from './register.component';
 import { DashComponent } from './dash/dash.component';
 import { CoursesComponent } from './courses/courses.component';
+import { ResetPasswordComponent } from './resetpassword.component';
 
 const routes: Routes = [
     {
         path: '', component: LayoutComponent,
         children: [
             { path: 'login', component: LoginComponent },
-            { path: 'register', component: RegisterComponent }
+            { path: 'register', component: RegisterComponent },
+            { path: 'reset-password', component: ResetPasswordComponent }
         ],
         
     },

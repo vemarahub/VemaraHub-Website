@@ -45,6 +45,10 @@ export class AccountService {
         return this.http.post(`${environment.apiUrl}/users/register`, user);
     }
 
+    resetpass(user: User) {
+        return this.http.post(`${environment.apiUrl}/users/resetpass`, user);
+    }
+
     getAll() {
         return this.http.get<User[]>(`${environment.apiUrl}/users`);
     }

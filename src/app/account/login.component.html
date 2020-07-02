@@ -1,8 +1,9 @@
-﻿
+﻿<div class="col-md-4 offset-md-4 mt-5" >
 
-<div class="card card-signin my-5">
-    <h4 class="card-header">Login To VeMaRa Hub Learning Portal</h4>
-    <div class="card-body">
+
+    <h3 ><B>Login To VeMaRa Hub Learning Portal</B></h3>
+    <hr/>
+    <div >
      
         <form [formGroup]="form" (ngSubmit)="onSubmit()" class="form-sign-in">
             <div class="form-group">
@@ -28,10 +29,14 @@
                  
                 </button>
                 <hr class="my-4">
-              <h5>  New to Vemara Hub?
-               <a routerLink="../register" class="btn btn-link">Register</a></h5> 
+                <h5>  
+                    <a routerLink="../reset-password" class="btn btn-default"><B><U>Forgot Password ?</U></B></a></h5> 
+               
+              <h4> <B>New to Vemara Hub?</B> 
+               <a routerLink="../register" class="btn btn-warning">Register</a></h4> 
             </div>
         </form>
     </div>
-</div>
 
+
+</div>
